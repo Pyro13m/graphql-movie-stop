@@ -1,0 +1,126 @@
+body {
+  background: #FDEBF7;
+  font-family: sans-serif;
+}
+
+/* CSS */
+
+.main h1{
+  color: #444;
+  text-align: center;
+}
+
+.main{
+  padding: 0;
+  box-sizing: border-box;
+  width: 60%;
+  height: 100%;
+}
+
+#movie-list{
+  padding: 0;
+}
+
+#movie-list li{
+  display: inline-block;
+  margin: 12px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #D885A3;
+  box-shadow: 1px 2px 3px rgba( 0, 0, 0, 0.3);
+  cursor: pointer;
+  color: #D885A3;
+}
+
+form{
+  background: #D9D7F1;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+}
+
+form .field{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-gap: 10px;
+}
+
+form label{
+  /* text-align: right; */
+  padding: 6px;
+}
+
+form select, form input{
+  margin: 4px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+#movie-details{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background: #219F94;
+  overflow: auto;
+  box-shadow: -2px -3px 5px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  color: white;
+}
+
+#movie-details .movie-status{
+  text-align: center;
+  font-size: 25px;
+}
+
+#movie-details .movie-dets{
+  padding-left: 5%;
+}
+
+.other-movies{
+  padding-left: 15%;
+}
+
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+label{
+  padding-right: 10px
+}
+
+.field{
+  padding-bottom: 5px;
+}
